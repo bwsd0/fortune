@@ -43,3 +43,6 @@ written by Ken Arnold.
 > people but it's time to acknowledge their subjective, and in some cases at
 > least potentially offensive, nature and stop distributing them with the
 > imprimatur of the FreeBSD project.
+
+# License
+MIT
