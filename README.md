@@ -45,8 +45,7 @@ written by Ken Arnold.
 > imprimatur of the FreeBSD project.
 
 # See also
-[QOTD(Quote of the Day Protocol](https://tools.ietf.org/html/rfc865)(RFC
-865)
+[QOTD (Quote of the Day Protocol)](https://tools.ietf.org/html/rfc865) (RFC 865)
 
 # License
 MIT
