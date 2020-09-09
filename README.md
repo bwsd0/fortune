@@ -44,5 +44,9 @@ written by Ken Arnold.
 > least potentially offensive, nature and stop distributing them with the
 > imprimatur of the FreeBSD project.
 
+# See also
+[QOTD(Quote of the Day Protocol](https://tools.ietf.org/html/rfc865)(RFC
+865)
+
 # License
 MIT
