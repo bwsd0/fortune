@@ -13,8 +13,10 @@ Fortune prints an aphorism chosen at random.
 - [OpenBSD](http://fortunes.cat-v.org/openbsd/)
 - [Plan 9](http://fortunes.cat-v.org/plan_9/)
 
+To update the fortune file:
+
 ```sh
-wget -O lib/fortunes.index https://9fans.github.io/usr/local/plan9/lib/fortunes
+wget -O lib/fortunes https://9fans.github.io/usr/local/plan9/lib/fortunes
 ```
 
 ## Other sources
