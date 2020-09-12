@@ -8,11 +8,11 @@ import (
 	"log"
 	"math/rand"
 	"os"
+	"path/filepath"
 )
 
 var (
-	index    = "lib/fortunes.index"
-	fortunes = "lib/fortunes"
+	fortunes = filepath.Join(os.Getenv("HOME"), os.Getenv("FORTUNES"))
 
 	fInfo, ixInfo os.FileInfo
 	fbuf          *buf

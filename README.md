@@ -2,6 +2,14 @@ fortune(1) - sample lines from a file
 
 Fortune prints an aphorism chosen at random.
 
+# Setup
+
+```sh
+go install
+cp lib/fortunes ~/fortunes
+export FORTUNES="fortunes"
+```
+
 # Sources
 [Jar of fortunes](http://fortunes.cat-v.org/cat-v/)
 
