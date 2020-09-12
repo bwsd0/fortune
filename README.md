@@ -12,6 +12,7 @@ Fortune prints an aphorism chosen at random.
 - [Kernelnewbies](http://fortunes.cat-v.org/kernelnewbies/)
 - [OpenBSD](http://fortunes.cat-v.org/openbsd/)
 - [Plan 9](http://fortunes.cat-v.org/plan_9/)
+- [Terry A. Davis](https://gist.githubusercontent.com/bwasd/62ceccc10d88d3afc0e0f449001c87c1/raw/9c0408927448cf33b41515840dcc53449d8a2b6b/terry)
 
 To update the fortune file:
 
