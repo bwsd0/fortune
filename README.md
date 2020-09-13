@@ -7,7 +7,21 @@ Fortune prints an aphorism chosen at random.
 ```sh
 go install
 cp lib/fortunes ~/fortunes
+```
+
+Add the location of the fortunes file to your `.bashrc`:
+
+```
 export FORTUNES="fortunes"
+source ~/.bashrc
+```
+
+Now fortunes will be chosen at random from the `FORTUNES` file when running the
+`fortune` command:
+
+```
+fortune
+You can observe a lot just by watching. -Yogi Berra
 ```
 
 # Sources
