@@ -42,9 +42,6 @@ To update the fortune file:
 wget -O lib/fortunes https://9fans.github.io/usr/local/plan9/lib/fortunes
 ```
 
-## Other sources
-[Aphorisms concerning aphorisms](https://en.wikiquote.org/wiki/Aphorisms)
-
 # History
 `fortune(6)` first appeared in the Seventh Edition of Unix in 1979,
 written by Ken Arnold.
@@ -68,7 +65,8 @@ written by Ken Arnold.
 > imprimatur of the FreeBSD project.
 
 # See also
-[QOTD (Quote of the Day Protocol)](https://tools.ietf.org/html/rfc865) (RFC 865)
+- [Aphorisms about aphorisms](https://en.wikiquote.org/wiki/Aphorisms)
+- [QOTD (Quote of the Day Protocol)](https://tools.ietf.org/html/rfc865) (RFC 865)
 
 # License
 MIT
