@@ -1,4 +1,8 @@
 // fortune samples lines from a file
+//
+// Fortune prints a single line aphorism chosen at random. If a file is given,
+// the line is taken from that file. Otherwise, it will be read the filepath
+// specified by the environment variable "FORTUNES".
 package main
 
 import (
@@ -8,11 +12,10 @@ import (
 	"log"
 	"math/rand"
 	"os"
-	"path/filepath"
 )
 
 var (
-	fortunes = filepath.Join(os.Getenv("HOME"), os.Getenv("FORTUNES"))
+	fortunes = os.Getenv("FORTUNES")
 
 	fInfo, ixInfo os.FileInfo
 	fbuf          *buf
@@ -98,9 +101,12 @@ func main() {
 	flag.Parse()
 	args := flag.Args()
 
-	if len(args) > 0 {
+	if len(args) > 1 {
 		log.Printf("Misfortune!\n")
 		os.Exit(2)
+	}
+	if len(args) == 1 {
+		fortunes = flag.Arg(0)
 	}
 
 	f, err := os.Open(fortunes)
@@ -124,6 +130,10 @@ func main() {
 		}
 	}
 
-	log.Printf("%s", choice)
+	if len(choice) == 0 {
+		log.Printf("No fortune: misfortune?")
+	} else {
+		log.Printf("%s", choice)
+	}
 	os.Exit(0)
 }
